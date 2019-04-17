@@ -12,4 +12,4 @@ I use rwr result as a base.
 
 The algrithm is as below:
 
-<img src="https://github.com/jiangjiawen/MaxDGC/blob/master/maxdalg.png" width="400" height="600" title="alg">
+<img src="https://github.com/jiangjiawen/MaxDGC/blob/master/maxdalg.png" width="500" height="600" title="alg">
