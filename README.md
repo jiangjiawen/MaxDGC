@@ -19,3 +19,14 @@ Okay，The original name is CASRW. The Max seeD is that i choose seed clusters f
 Surely, my method seems a little stupid. But in the experiment, it behaves well if i use good parameters.
 
 Nowadays, Graph convolution network is hot, traditional graph clustering can learn from it.
+
+files content:
+file  entry: main.cpp. readnet.h readnet.cpp: read net. rwrgetseedcluster.h rwrgetseedcluster.cpp: get seed clusters。
+calculatefeaturevector.h calculatefeaturevector.cpp: compute complex vectors. clusterprocess.h clusterprocess.cpp: add nodes and merge process.
+
+readnet， input：file，file format is abc，output：nodes name vector：rowcolname, a map the format is <-nodename-nodename，c> ：mat_map。
+
+rwrgetseedcluster： input：rowcolname，mat_map，rwr threshold δ。output：seed cluster。
+
+ClusteringProcess：add nodes and merge process.
+
