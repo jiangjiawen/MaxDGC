@@ -23,9 +23,10 @@ Nowadays, Graph convolution network is hot, traditional graph clustering can lea
 files content:
 file  entry: main.cpp. readnet.h readnet.cpp: read net. rwrgetseedcluster.h rwrgetseedcluster.cpp: get seed clusters. clusterprocess.h clusterprocess.cpp expansionandmerge.cpp expansionandmerge.h: add nodes and merge process.
 
-readnet， input：file，file format is abc，output：nodes name vector：rowcolname, a map the format is <-nodename-nodename，c> ：mat_map。
+readnet, input: file, file format is abc, output: nodes name vector: rowcolname, a map the format is <-nodename-nodename，c> : mat_map.
 
-rwrgetseedcluster： input：rowcolname，mat_map，rwr threshold δ。output：seed cluster。
+rwrgetseedcluster: input: rowcolname, mat_map, rwr threshold δ. output: seed cluster.
 
-ClusteringProcess expansionandmerge：add nodes and merge process.
+ClusteringProcess: assign last nodes into these seeds.
+expansionandmerge：add linking nodes and merge process.
 
