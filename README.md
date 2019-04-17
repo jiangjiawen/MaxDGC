@@ -12,4 +12,6 @@ I use rwr result as a base.
 
 The algrithm is as below:
 
-![alg](https://github.com/jiangjiawen/MaxDGC/blob/master/maxdalg.png){:height="50%" width="50%"}
+<img src="https://github.com/jiangjiawen/MaxDGC/blob/master/maxdalg.png" width="200" height="300" title="Github Logo">
+
+![alg](https://github.com/jiangjiawen/MaxDGC/blob/master/maxdalg.png)
